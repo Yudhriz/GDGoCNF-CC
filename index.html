@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script>
+      // TODO 1: Isi variabel "name" dengan nama Anda
+      const name = "[Your Name]";
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        Portfolio
+        <script>
+          document.write(name);
+        </script>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1>Welcome to My Portfolio</h1>
+        <div id="about">
+          <h2>About Me</h2>
+          <p>
+            Hello! I am
+            <script>
+              document.write(name);
+            </script>
+            , a web developer with a passion for creating beautiful and
+            functional websites. Welcome to my portfolio!
+          </p>
+        </div>
+        <div id="contact">
+          <h2>Find me in!</h2>
+          <ul>
+            <li>
+              <!-- TODO 2: Tambahkan link LinkedIn -->
+              <a href="https://www.linkedin.com/in/[Your Username]">LinkedIn</a>
+            </li>
+            <li>
+              <!-- TODO 3: Tambahkan link Instagram -->
+              <a href="https://www.instagram.com/[Your Username]">Instagram</a>
+            </li>
+            <li>
+              <!-- TODO 4: Tambahkan link GitHub -->
+              <a href="https://github.com/[Your Username]">Github</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <aside>
+        <div class="center">
+          <!-- TODO 5: Ganti dengan foto pribadi -->
+          <img
+            src="https://storage.googleapis.com/xxxxxxx"
+            alt="My Photo"
+            style="width: 125px"
+          />
+        </div>
+
+        <h3>Personal Information</h3>
+
+        <table>
+          <tr>
+            <td>Name</td>
+            <td>:</td>
+            <td>
+              <script>
+                document.write(name);
+              </script>
+            </td>
+          </tr>
+          <tr>
+            <td>Work</td>
+            <td>:</td>
+            <td>Mahasiswa</td>
+          </tr>
+          <tr>
+            <td>Age</td>
+            <td>:</td>
+            <td id="age"></td>
+          </tr>
+          <tr>
+            <td>Location</td>
+            <td>:</td>
+            <td>Indonesia</td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td>
+              <!-- TODO 6: Tambahkan email -->
+              <a class="email-link" href="mailto:[Your Email]">[Your Email] </a>
+            </td>
+          </tr>
+        </table>
+      </aside>
+    </main>
+    <footer>
+      <p>
+        &copy; 2024
+        <script>
+          document.write(name);
+        </script>
+        . All rights reserved.
+      </p>
+    </footer>
+  </body>
+
+  <script src="assets/js/script.js"></script>
+</html>
