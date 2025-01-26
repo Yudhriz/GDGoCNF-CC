@@ -1,0 +1,14 @@
+{
+  "name": "gdgocnf-cc",
+  "version": "1.0.0",
+  "description": "Website ini adalah sebuah portfolio sederhana untuk memperkenalkan diri Anda, lengkap dengan informasi pribadi, media sosial, dan kontak. Website ini menggunakan HTML, CSS, dan JavaScript untuk memberikan pengalaman pengguna yang responsif dan informatif.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
