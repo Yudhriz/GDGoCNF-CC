@@ -18,7 +18,7 @@ Website ini adalah sebuah portfolio sederhana untuk memperkenalkan diri Anda, le
 
 2. **Todo untuk Mahasiswa**:
    - TODO 1: Isi variabel "name" dengan nama Anda  
-   - TODO w: Tambahkan link LinkedIn pada bagian kontak.
+   - TODO 2: Tambahkan link LinkedIn pada bagian kontak.
    - TODO 3: Tambahkan link Instagram pada bagian kontak.
    - TODO 4: Tambahkan link GitHub pada bagian kontak.
    - TODO 5: Ganti gambar placeholder dengan foto pribadi.
